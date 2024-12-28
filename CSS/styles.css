@@ -1,0 +1,107 @@
+/* Styles Reset */
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1d1d1d;
+  font-family: "Source sans 3", sans-serif;
+  padding: 20px;
+}
+
+header, main {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 67px;
+  padding: 16px 15px;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+header .avatar {
+  width: 34px;
+  height: 34px;
+}
+
+header .logo {
+  width: 127px;
+}
+
+article {
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+article .head {
+  display: flex;
+  padding: 10px;
+}
+
+.head .user_picture {
+  width: 34px;
+  height: 34px;
+  border-radius: 99999px;
+  margin-right: 7px;
+}
+
+.user_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user_info .user_name {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.user_info .user_location {
+  font-size: 12px;
+}
+
+.img img {
+  width: 375px;
+  height: 375px;
+  object-fit: cover;
+}
+
+.icons {
+  display: flex;
+  gap: 18px;
+  padding: 21px 0px 11px 10px
+}
+
+.icon {
+  width: 23px;
+}
+
+.icon:hover {
+  opacity: 0.8;
+}
+
+.likes {
+  display: block;
+  font-weight: bold;
+  padding-left: 13px;
+  padding-bottom: 12px;
+  font-size: 13px;
+}
+
+.comment {
+  display: block;
+  padding-left: 13px;
+  padding-bottom: 16px;
+  font-size: 13px;
+
+}
+
+.comment .user_name {
+  font-weight: bold;
+}
+

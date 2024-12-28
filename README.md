@@ -1,4 +1,4 @@
-# oldgram
+# oldagram
 oldgram project for scrimba js course
 
 Requirements

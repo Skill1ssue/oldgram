@@ -3,7 +3,7 @@ oldgram project for scrimba js course
 
 Requirements
 
-- Create th first post
+- Create the first post
 - Use semantic HTML 
 - Add hover effects to the icons
 

@@ -1,5 +1,5 @@
-# oldagram
-oldgram project for scrimba js course
+# oldgram
+oldagram project for scrimba js course
 
 Requirements
 
